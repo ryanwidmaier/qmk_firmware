@@ -1,5 +1,5 @@
 #pragma once
 
 #undef DEBOUNCE
-#define DEBOUNCE 10
+#define DEBOUNCE 15
 
