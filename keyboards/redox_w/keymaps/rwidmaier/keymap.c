@@ -87,7 +87,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├──────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_KP_PLUS,KC_A    ,KC_S    ,KC_D    ,KC_F    ,KC_G    ,KC_HOME ,                          KC_EQL  ,KC_H    ,KC_J    ,KC_K    ,KC_L    ,KC_SCLN ,GUI_T(KC_QUOT),
   //├──────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     LPAR      ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,LT_B    ,L_CTL   ,KC_DELETE,       KC_TAB  ,L_ALT   ,LT_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_BKSL , RPAR   ,
+     LPAR      ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,LT_B    ,L_CTL   ,KC_DELETE,       KC_TAB  ,L_ALT   ,LT_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH , RPAR   ,
   //├──────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
      L_COPY    ,L_CUT   ,L_PASTE ,KC_LEFT ,     KC_RGHT ,    KC_LSHIFT,KC_BSPC,        KC_ENT  ,KC_SPC  ,    KC_UP   ,     KC_DOWN ,L_FIND  ,TMUX    ,TG(NAVNUM) 
   //└──────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
@@ -123,7 +123,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├──────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_KP_PLUS,KC_A    ,KC_S    ,KC_D    ,KC_F    ,KC_G    ,KC_HOME ,                          KC_EQL  ,KC_H    ,KC_J    ,KC_K    ,KC_L    ,KC_SCLN ,GUI_T(KC_QUOT),
   //├──────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     LPAR      ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,LT_B    ,M_CMD   ,KC_DELETE,       KC_TAB  ,M_CTL   ,LT_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_BKSL , RPAR   ,
+     LPAR      ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,LT_B    ,M_CMD   ,KC_DELETE,       KC_TAB  ,M_CTL   ,LT_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH , RPAR   ,
   //├──────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
      M_COPY    ,M_CUT   ,M_PASTE ,KC_LEFT ,     KC_RGHT ,    KC_LSHIFT,KC_BSPC,        KC_ENT  ,KC_SPC  ,    KC_UP   ,     KC_DOWN ,M_FIND  ,TMUX    ,TG(NAVNUM) 
   //└──────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
